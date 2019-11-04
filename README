@@ -1,0 +1,39 @@
+ ____       _           _             
+/ ___|  ___| | ___  ___| |_ ___  _ __ 
+\___ \ / _ \ |/ _ \/ __| __/ _ \| '__|
+ ___) |  __/ |  __/ (__| || (_) | |   
+|____/ \___|_|\___|\___|\__\___/|_|   v.01
+
+		 ^MiSaTo^ 2010
+		 www.misato.es
+		   Vieju.NET
+
+How to use Selector?
+
+ If you are not compiling it just create a config file called "selector.cfg" and put it in the same folder that selector exe.
+ The config file format is: 
+	rom_dir=roms/ <rom directory, IMPORTANT!!! put / after the folder name>
+	extension=.ws <rom extension, IMPORTANT!!! put . before the extension>
+	extension=.wsc
+	emulator=ws <emulator name>
+ It can support two types of extensions (for the moment). If your emulator only runs one kind of files (i.e. just .zip) 
+ please put two times the same extension or it will crash.
+
+ You can change images but you MUST keep vieju-splash.png and be carefull with image resolutions (take a look at images provided).
+ 
+ This source is under GNU GPL License (see LICENSE).
+
+ ¿Cómo usar Selector?
+
+ Si no vas a compilarlo, sólo tienes que crear un archivo de configuración llamado "selector.cfg" y ponerlo en la misma carpeta que el ejecutable del selector.
+ El formato del fichero de configuración es:
+  	rom_dir=roms/ <directorio donde estarán las roms IMPORTANTE!!! pon / después de la ruta del directorio>
+	extension=.ws <Extensión de las roms, IMPORTANTE!!! pon . antes de la extensión>
+	extension=.wsc
+	emulator=ws <nombre del emulador>
+	
+ Soporta dos tipos de extensiones (de momento). Si el emulador sólo soporta un tipo (por ejemplo sólo roms en zip) pon dos veces la misma extensión o el selector dará error.
+
+ Puedes cambiar las imágenes pero DEBES dejar vieju-splash.png y ten cuidado con la resolución de las imágenes (echa un vistazo a las imágenes que vienen con el selector).
+
+ El código fuente está licenciado bajo la licencia GNU GPL (Ver LICENSE).
